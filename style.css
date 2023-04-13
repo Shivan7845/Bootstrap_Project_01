@@ -1,0 +1,80 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family:"montserrat"; 
+   
+
+} 
+html,body{
+    min-height: 100vh;
+}
+.gradient{
+    background: linear-gradient(135deg, rgba(0,97,242,1) 0%, rgba(105,0,199,1) 100%);
+}
+.page-header{
+    margin-top: 4rem;
+   font-size: 4rem;
+    font-family: "montserrat";
+    color: white;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.feature{
+    color: white;
+  
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style: none;
+}
+.feature ul li{
+    padding-left: 2rem;
+   line-height: 1.5rem;
+    background-image: url(check_01.png);
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+.icon{
+  /* margin-left: 5vmax; */
+    color: white;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    background-color: whitesmoke;
+}
+    
+.gallery img{
+   border-radius: 5%;
+
+}
+.services{
+    color: #fff;
+   
+}
+.services p{
+    width: 80%;
+}
+footer{
+    text-align: center;
+    color: #fff;
+     margin: 0;
+   padding: 1rem;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
